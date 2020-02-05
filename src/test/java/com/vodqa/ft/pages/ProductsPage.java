@@ -12,7 +12,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class ProductsPage extends BasePage {
     public ProductsPage(WebDriver driver) {
         super(driver);
-        url = "http://vodqa.ml";
+        url = "localhost:8000";
     }
 
     //Locators
